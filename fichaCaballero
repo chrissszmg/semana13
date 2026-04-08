@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+void mostrarFicha(string nombre, string clase, int nivel, int vida){
+    
+    cout << "====================" << endl;
+    cout << "Nombre: " << nombre << endl;
+    cout <<"Clase: "<< clase << endl;
+    cout << "Nivel: "<< nivel << endl;
+    cout <<"Vida: "<< vida << endl;
+    cout << "====================" << endl;
+   
+}
+int main(){
+    
+    
+
+mostrarFicha ("Christian", "Hechicero" , 69 , 8888);
+mostrarFicha ("Joche", "Vidente" , 67 , 999);
+    
+    
+    
+return 0;
+}

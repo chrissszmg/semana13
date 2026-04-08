@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+void mejorarArma(string arma, int& danio){
+
+    danio = danio * 2;
+    
+}
+int main(){
+
+string arma = "espada" ;
+    int danio = 25;
+    
+    cout << arma << "Daño original: " << danio << endl;
+    
+    cout << "Mejorando arma..." << endl;
+
+    
+ mejorarArma(arma, danio);
+    
+    cout << arma << "Daño mejorado: " << danio<< endl;
+      
+    return 0;
+}
