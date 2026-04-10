@@ -40,6 +40,6 @@ precio *= (1 + iva);
 int main() {
 double precio = 100.00;
 aplicarIVA(precio, 0.12);
-// aqui, precio vale: 112.00, porque se pasa por referencia y la funcion modifica el valor original de precio.
+// aqui, precio vale 112.00 porque se pasa por referencia (&) y la funcion modifica la variable original.
 }
 //B) precio ahora vale 112.00 — la referencia modifico el original.
