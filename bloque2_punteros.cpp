@@ -52,14 +52,18 @@ int contador = 10;
 incrementar(&contador, 5);
 */
 //■ Pregunta 1: ¿Como se llama la funcion en cada caso? Escribe las dos lineas de llamada y senala la diferencia.
-/*Referencia: incrementar(contador, 5); y con Puntero incrementar (&contador, 5); La diferencia es que con referencia se pasa el valor 
-directamente, mientras que con puntero se pasa la direccion de memoria usando &contador. */
+/*Referencia: incrementar(contador, 5).
+ Con Puntero incrementar (&contador, 5); 
+ La diferencia es que con referencia se pasa el valor 
+original directamente por la funcion, mientras que con puntero se pasa la direccion de memoria usando &contador. */
 
 
 //■ Pregunta 2: ¿Que operador aparece dentro del CUERPO de la version con puntero que no aparece en la version con
 //referencia?
-/* Aparece el operador * el cual el valor que se encuentra guardado ahi*/
+/* Aparece el operador * el cual se usa para poder ingresar al valor al que apunta el puntero */
 
 
 //■ Pregunta 3: Despues de ejecutar, ¿contador vale 15 en ambos casos? Escribe si o no y explica por que.
-/*En los dos casos el contador vale 15 ya que el primero modifica el valor directamente y el segundo accede al valor a través del puntero. */
+/* Sí, en ambos casos contador vale 15 porque las dos funciones
+modifican la variable original, mientras la una lo hace mediante referencia (&)
+ la otra la cambia mediante un puntero. */
