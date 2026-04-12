@@ -42,6 +42,7 @@ ajustarNota(&notas[1], 0.5);
 double promedio;
     normalizarNotas(notas, 4, promedio);
 
+   
 
     return 0;
 }
