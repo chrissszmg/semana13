@@ -34,13 +34,13 @@ mostrarEstudiantes(nombres, notas, 4);
 
 ajustarNota(&notas[1], 0.5);
 
-    double promedio;
-    normalizarNotas(notas, 4, promedio);
+    
 
     cout << "===== Registro final =====" << endl;
     mostrarEstudiantes(nombres, notas, 4);
 
-
+double promedio;
+    normalizarNotas(notas, 4, promedio);
 
 
     return 0;
